@@ -12,8 +12,8 @@ const dbName = "giftdb";
 
 async function connectToDatabase() {
     if (dbInstance){
-        return dbInstance
-    };
+        return dbInstance;
+    }
 
     const client = new MongoClient(url);
 
