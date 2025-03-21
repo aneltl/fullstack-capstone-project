@@ -66,3 +66,15 @@ h2 {
 .btn-primary:hover {
     background-color: #43A047; /* Darker green on hover */
 }
+
+@media (max-width: 768px) {
+        h1 {
+            font-size: 3rem; /* Smaller font size for headings on mobile */
+        }
+        h2 {
+            font-size: 2.5rem; /* Smaller font size for subheadings on mobile */
+        }
+        .lead {
+            font-size: 1.25rem; /* Smaller font size for text on mobile */
+        }
+    }
